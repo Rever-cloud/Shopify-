@@ -931,10 +931,10 @@ async def plan_cmd(event):
 ━━━━━━━━━━━━━━━━━
 <b>FREE</b>: 300 CCs (group only)
 <b>PRO</b>: 2000 CCs + proxy + private
-<b>TOJI</b>: 5000 CCs + priority
+<b>PRO PLUS</b>: 5000 CCs + priority
 ━━━━━━━━━━━━━━━━━
 Your plan: <b>{plan.upper()}</b>
-Contact @MRROOTTG"""
+Contact @UNRULYREVERSE"""
     await styled_reply(event, text, emoji_ids=[CE["crown"]])
 
 @client.on(events.NewMessage(pattern='/stats'))
